@@ -1,8 +1,9 @@
 import { Router } from "express";
 import{ verifyTokenAdmin, verifyTokenAuthorization } from "./verifyToken.js";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 import Product from "../models/Product.js";
-const router=Router();
+import { now } from "mongoose";
+const router=Router();now
 
 
 //CREATE 
